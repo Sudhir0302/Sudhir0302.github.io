@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sudhir R</title>
+    <title>Sudhir R | Portfolio</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -12,161 +12,166 @@
             font-family: 'Segoe UI', sans-serif;
             background: #f8f9fa;
             color: #333;
+            padding: 0;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #f1f1f1;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #007BFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
             padding: 20px;
         }
-        .section-title {
-            margin-top: 30px;
-            font-weight: bold;
-            border-bottom: 2px solid #ccc;
-            padding-bottom: 5px;
-        }
-        .section1 {
-            display: flex;
-            align-items: center;
-            margin-bottom: 20px;
-        }
         .profile-img img {
-            width: 120px;
+            width: 140px;
             border-radius: 50%;
             border: 3px solid #007BFF;
         }
-        .profile-data {
-            margin-left: 20px;
-        }
         .profile-data h1 {
-            margin-top: 0;
-            font-size: 28px;
+            font-size: 32px;
         }
-        .ed-table td {
-            padding: 8px 15px;
-            vertical-align: top;
+        .section-title {
+            margin-top: 40px;
+            font-weight: bold;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 6px;
         }
         ul {
             list-style-type: square;
             padding-left: 20px;
         }
-        .section5 a {
-            font-size: 20px;
+        .project-item {
+            margin-bottom: 25px;
+        }
+        .contact-icons a {
+            font-size: 22px;
             margin-right: 15px;
-            text-decoration: none;
             color: #007BFF;
+            text-decoration: none;
         }
-        .section5 a:hover {
+        .contact-icons a:hover {
             color: #0056b3;
-        }
-        .projects .project-item {
-            margin-bottom: 20px;
         }
     </style>
 </head>
 <body>
-    <div class="section1">
-        <div class="profile-img-section">
-            <div class="profile-img">
-                <img src="Sudhir3.jpg" alt="Sudhir R's Profile Picture">
-            </div>
+
+    <header>
+        <div class="profile-img">
+            <img src="Sudhir3.jpg" alt="Sudhir R">
         </div>
         <div class="profile-data">
             <h1>Sudhir R</h1>
-            <h3><a href="mailto:sudhirpld2020@gmail.com">sudhirpld2020@gmail.com</a></h3>
-            <p><i class="fa fa-phone"></i> +91 9626685512</p>
+            <p>Full Stack Developer | Java | React | Spring Boot</p>
         </div>
-    </div>
+    </header>
 
-    <div class="section2">
-        <h1 class="section-title">Career Objective</h1>
-        <p>
-            I am a passionate and motivated fresher with hands-on experience in frontend and backend development. I am eager to join a dynamic team where I can apply my technical skills, contribute to innovative and scalable solutions, and grow with the organization.
-        </p>        
-    </div>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
-    <div class="section3">
-        <h1 class="section-title">Education</h1>
-        <table class="ed-table">
-            <tr>
-                <td><strong>B.E. Computer Science and Engineering</strong></td>
-                <td>Sri Shakthi Institute of Engineering and Technology</td>
-                <td>2022–2026 | CGPA: 8.14</td>
-            </tr>
-            <tr>
-                <td><strong>HSC</strong></td>
-                <td>Blue Bird Matriculation Higher Secondary School</td>
-                <td>2021–2022 | 87.66%</td>
-            </tr>
-            <tr>
-                <td><strong>SSLC</strong></td>
-                <td>Blue Bird Matriculation Higher Secondary School</td>
-                <td>2019–2020 | 96%</td>
-            </tr>            
-        </table>
-    </div>
+    <div class="container">
 
-    <div class="section4">
-        <h1 class="section-title">Skills</h1>
-        <ul>
-            <li>Java</li>
-            <li>ReactJS</li>
-            <li>Node.js</li>
-            <li>Express.js</li>
-            <li>Spring/Spring Boot</li>
-            <li>MySQL</li>
-            <li>Postman</li>
-            <li>Git, GitHub</li>
-            <li>VS Code, IntelliJ</li>
-        </ul>
-    </div>
+        <section id="about">
+            <h2 class="section-title">About Me</h2>
+            <p>
+                I am a passionate and motivated Full Stack Developer with hands-on experience in frontend and backend development. 
+                I enjoy building scalable applications and exploring new technologies. I'm eager to grow in a collaborative and fast-paced environment.
+            </p>
+        </section>
 
-    <div class="section6">
-        <h1 class="section-title">Certifications</h1>
-        <ul>
-            <li>Java - HackerRank</li>
-            <li>React - Udemy</li>
-            <li>Spring/Spring Boot - Udemy</li>
-            <li>Postman API Fundamentals - Postman</li>
-        </ul>
-    </div>
+        <section id="projects">
+            <h2 class="section-title">Projects</h2>
 
-    <div class="section7">
-        <h1 class="section-title">Projects</h1>
-        <div class="projects">
             <div class="project-item">
-                <h3>BookStore | MERN Stack</h3>
+                <h4>📚 BookStore | MERN Stack</h4>
                 <p>
-                    Developed a Bookstore platform to manage books and customers. Used React (useState, useEffect, Context API), secured login with JWT, and backend with password hashing and API integration.
-                    <br><a href="https://github.com/Sudhir0302/BookStore" target="_blank">GitHub Repo</a>
+                    Built a Bookstore platform with user authentication, JWT security, and state management using Context API.
+                    <br><a href="https://github.com/Sudhir0302/BookStore" target="_blank">View on GitHub</a>
                 </p>
             </div>
+
             <div class="project-item">
-                <h3>Secure REST API with JWT & Google TOTP | Spring Boot</h3>
+                <h4>🔐 Secure REST API with JWT & Google TOTP | Spring Boot</h4>
                 <p>
-                    Built a secure REST API with Spring Boot using JWT authentication and Google TOTP-based 2FA. Implemented fine-grained access control and secure token management.
-                    <br><a href="https://github.com/Sudhir0302/Springsecurity" target="_blank">GitHub Repo</a>
+                    Developed a secure backend service using Spring Security, JWT, and Google-based 2FA.
+                    <br><a href="https://github.com/Sudhir0302/Springsecurity" target="_blank">View on GitHub</a>
                 </p>
             </div>
+
             <div class="project-item">
-                <h3>CacheLimiter | Spring Boot, Redis</h3>
+                <h4>⚡ CacheLimiter | Spring Boot, Redis</h4>
                 <p>
-                    Developed a rate-limiting service using Redis caching and Spring Boot to reduce database load and enhance API performance.
-                    <br><a href="https://github.com/Sudhir0302/CacheLimiter" target="_blank">GitHub Repo</a>
+                    Implemented API rate-limiting and caching using Redis to boost performance.
+                    <br><a href="https://github.com/Sudhir0302/CacheLimiter" target="_blank">View on GitHub</a>
                 </p>
             </div>
-        </div>
+        </section>
+
+        <section id="skills">
+            <h2 class="section-title">Skills</h2>
+            <ul>
+                <li>Java, JavaScript</li>
+                <li>ReactJS, Node.js, Express.js</li>
+                <li>Spring / Spring Boot</li>
+                <li>MySQL, MongoDB</li>
+                <li>Git, GitHub, Postman</li>
+                <li>VS Code, IntelliJ</li>
+            </ul>
+        </section>
+
+        <section id="certifications">
+            <h2 class="section-title">Certifications</h2>
+            <ul>
+                <li>Java - HackerRank</li>
+                <li>React - Udemy</li>
+                <li>Spring/Spring Boot - Udemy</li>
+                <li>Postman API Fundamentals - Postman</li>
+            </ul>
+        </section>
+
+        <section id="education">
+            <h2 class="section-title">Education</h2>
+            <ul>
+                <li><strong>B.E. Computer Science and Engineering</strong> – Sri Shakthi Institute of Engineering and Technology (2022–2026) | CGPA: 8.14</li>
+                <li><strong>HSC</strong> – Blue Bird Matriculation Hr. Sec. School (2021–2022) | 87.66%</li>
+                <li><strong>SSLC</strong> – Blue Bird Matriculation Hr. Sec. School (2019–2020) | 96%</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2 class="section-title">Contact</h2>
+            <p>Email: <a href="mailto:sudhirpld2020@gmail.com">sudhirpld2020@gmail.com</a></p>
+            <p>Phone: +91 9626685512</p>
+            <div class="contact-icons">
+                <a href="https://github.com/Sudhir0302" target="_blank" title="GitHub"><i class="fa fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/sudhir-rakkiappan" target="_blank" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
+                <a href="https://leetcode.com/Sudhir03" target="_blank" title="LeetCode"><i class="fa fa-code"></i></a>
+                <a href="https://www.geeksforgeeks.org/user/sudhirp9lrx" target="_blank" title="GFG"><i class="fa fa-code"></i></a>
+            </div>
+        </section>
+
     </div>
 
-    <div class="section8">
-        <h1 class="section-title">Languages Known</h1>
-        <ul>
-            <li>English</li>
-            <li>Tamil</li>
-        </ul>
-    </div>
-
-    <div class="section5">
-        <a href="https://github.com/Sudhir0302" target="_blank" title="GitHub"><i class="fa fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/sudhir-rakkiappan" target="_blank" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
-        <a href="mailto:sudhirpld2020@gmail.com" title="Email"><i class="fa fa-envelope"></i></a>
-        <a href="https://leetcode.com/Sudhir03" target="_blank" title="LeetCode"><i class="fa fa-code"></i></a>
-        <a href="https://www.geeksforgeeks.org/user/sudhirp9lrx" target="_blank" title="GFG"><i class="fa fa-code"></i></a>
-    </div>
 </body>
 </html>
